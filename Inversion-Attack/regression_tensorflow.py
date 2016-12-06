@@ -1,7 +1,6 @@
 import argparse
 from sklearn.metrics import accuracy_score
-from theano_softmax import SoftmaxExtractor
-import theano_softmax
+import tensorflow as tf
 import numpy as np
 from collections import Counter
 import utils
